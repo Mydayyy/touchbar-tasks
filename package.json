@@ -1,37 +1,37 @@
 {
-    "name": "touchbar-tasks",
-    "main": "./lib/TouchbarTasks",
-    "version": "0.0.0",
-    "description": "Show available grunt and npm tasks on the touchbar and provide the ability to run them",
-    "keywords": [],
-    "repository": "https://github.com/Mydayyy/touchbar-tasks",
-    "license": "MIT",
-    "scripts": {
-        "demo1": "echo \"Demo Task Fail\" && exit 1",
-        "demo2": "echo \"Demo Task Success\" && exit 0"
+  "name": "touchbar-tasks",
+  "main": "./lib/TouchbarTasks",
+  "version": "0.1.0",
+  "description": "Show available grunt and npm tasks on the touchbar and provide the ability to run them",
+  "keywords": [],
+  "repository": "https://github.com/Mydayyy/touchbar-tasks",
+  "license": "MIT",
+  "scripts": {
+    "demo1": "echo \"Demo Task Fail\" && exit 1",
+    "demo2": "echo \"Demo Task Success\" && exit 0"
+  },
+  "engines": {
+    "atom": ">=1.19.0 <2.0.0"
+  },
+  "dependencies": {
+    "electron-json-storage": "^4.0.2",
+    "grunt": "^1.0.2"
+  },
+  "devDependencies": {},
+  "package-deps": [
+    "touchbar-registry",
+    "status-bar"
+  ],
+  "consumedServices": {
+    "touchbar-registry": {
+      "versions": {
+        "0.2.0": "consumeTouchBar"
+      }
     },
-    "engines": {
-        "atom": ">=1.19.0 <2.0.0"
-    },
-    "dependencies": {
-        "electron-json-storage": "^4.0.2",
-        "grunt": "^1.0.2"
-    },
-    "devDependencies": {},
-    "package-deps": [
-        "touchbar-registry",
-        "status-bar"
-    ],
-    "consumedServices": {
-        "touchbar-registry": {
-            "versions": {
-                "0.2.0": "consumeTouchBar"
-            }
-        },
-        "status-bar": {
-            "versions": {
-                "^1.0.0": "consumeStatusBar"
-            }
-        }
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
+      }
     }
+  }
 }
