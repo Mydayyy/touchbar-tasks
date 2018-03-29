@@ -1,0 +1,23 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
+// for a full listing of what's available.
+@import "ui-variables";
+
+.touchbar-tasks {
+    max-height: 300px;
+    overflow: auto;
+    min-height: 300px;
+}
+
+.touchbar-tasks-status-bar {
+    display: inline-block;
+    color: @text-color-subtle;
+    border: 1px solid @button-border-color;
+    background: fade(@button-background-color, 33%);
+    cursor: pointer;
+    padding: 0 10px;
+    line-height: 1.8em;
+
+    &.active {}
+}
