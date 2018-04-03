@@ -28,7 +28,7 @@ Contribute
 
 - Source Code: [github.com/mydayyy/touchbar-tasks](https://github.com/Mydayyy/touchbar-tasks)
 
-You can easily contrinbute new taskrunners. All currently available taskrunners are under lib/TaskCollectors/<Name>.
+You can easily contribute new taskrunners. All currently available taskrunners are under lib/TaskCollectors/<Name>.
 All that is needed to implement e.g gulp or a different taskrunner is to create a new plugin here, which inerhits from AbstractTaskRunner inside AbstractPlugin.js
 
 License

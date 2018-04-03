@@ -15,7 +15,8 @@
   },
   "dependencies": {
     "electron-json-storage": "^4.0.2",
-    "grunt": "^1.0.2"
+    "grunt": "^1.0.2",
+    "atom-package-deps": "^4.6.0"
   },
   "devDependencies": {},
   "package-deps": [
