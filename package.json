@@ -1,7 +1,7 @@
 {
   "name": "touchbar-tasks",
   "main": "./lib/TouchbarTasks",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Show available grunt and npm tasks on the touchbar and provide the ability to run them",
   "keywords": [],
   "repository": "https://github.com/Mydayyy/touchbar-tasks",
