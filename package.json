@@ -7,8 +7,8 @@
   "repository": "https://github.com/Mydayyy/touchbar-tasks",
   "license": "MIT",
   "scripts": {
-    "demo1": "echo \"Demo Task Fail\" && exit 1",
-    "demo2": "echo \"Demo Task Success\" && exit 0"
+    "demo1": "echo \"Demo Task Fail\" && sleep 3 && exit 1",
+    "demo2": "echo \"Demo Task Success\" && sleep 5 && exit 0"
   },
   "engines": {
     "atom": ">=1.19.0 <2.0.0"
